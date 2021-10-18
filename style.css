@@ -24,17 +24,15 @@
 
 * {
     box-sizing: border-box;
-    text-align: center;
 }
 
 .first-screen_container {
     background: #EEEFF1;
-    margin: auto;
 }
 
 .first-screen {
-    width: 1100px;
-    display: inline-block;
+    max-width: 1130px;
+    margin: auto;
     padding-top: 80px;
     padding-bottom: 140px;
 }
@@ -55,6 +53,7 @@
     margin-right: 42px;
     text-transform: uppercase;
     display: inline-block;
+    vertical-align: top;
 }
 
 .main {
@@ -64,10 +63,6 @@
 
 .contacts {
     margin-right: 0;
-}
-
-.card-title {
-    width: 540px;
 }
 
 .title-text {
@@ -85,17 +80,13 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+    width: 540px;
     text-align: left;
     color: #727272;
     margin-bottom: 55px;
 }
 
 .button {
-    width: 225px;
-    background-color: #34547A;
-}
-
-.button-message {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -105,15 +96,19 @@
     color: #FFFFFF;
     text-decoration: none;
     text-transform: uppercase;
-    margin: 19px 41px 20px 41px;
+    padding: 19px 41px 20px 41px;
     display: inline-block;
+    vertical-align: top;
+    background-color: #34547A;
+    cursor: pointer;
 }
 
 .container-about_me {
     padding-top: 112px;
     padding-bottom: 89px;
-    width: 1110px;
+    max-width: 1130px;
     margin: auto;
+    text-align: center;
 }
 
 .card-about_me {
@@ -147,26 +142,31 @@
 }
 
 .block-statistics_list {
+    max-width: 1130px;
     margin: auto;
 }
 
 .block-statistics_item {
     display: inline-block;
+    vertical-align: top;
     margin-right: 49px;
 }
 
 .block-statistics_item_last {
     display: inline-block;
+    vertical-align: top;
     margin-right: 0;
 }
 
 .statistics-icon {
     margin-right: 20px;
     display: inline-block;
+    vertical-align: top;
 }
 
 .statistics-content {
     display: inline-block;
+    vertical-align: top;
 }
 
 .statistics-quantity {
@@ -175,6 +175,7 @@
     font-size: 21px;
     line-height: 24px;
     color: #FFFFFF;
+    padding-top: 3px;
     margin-bottom: 5px;
     text-align: left;
 }
@@ -189,13 +190,15 @@
 
 .card-video {
     background-color: #EEEFF1;
+    margin: auto;
     padding-top: 96px;
     padding-bottom: 100px;
 }
 
 .card-process {
-    width: 540px;
-    display: inline-block;
+    max-width: 1130px;
+    margin: auto;
+    text-align: center;
     margin-bottom: 50px;
 }
 
@@ -204,6 +207,7 @@
     font-weight: 500;
     font-size: 32px;
     line-height: 38px;
+    margin: auto;
     text-align: center;
     color: #000000;
     margin-bottom: 42px;
@@ -214,12 +218,19 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+    width: 540px;
+    margin: auto;
     text-align: center;
     color: #727272;
 }
 
+.video-process {
+    margin: auto;
+    text-align: center;
+}
+
 .video-item {
-    width: 1110px; 
+    width: 1130px; 
     height: 600px;
 }
 
@@ -230,7 +241,7 @@
 }
 
 .footer-content {
-    width: 1110px;
+    width: 1130px;
     margin: auto;
 }
 
